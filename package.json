@@ -1,0 +1,12 @@
+{
+  "name": "identity",
+  "description": "Identity function",
+  "repository": "git://github.com/micro-js/identity.git",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "2.x"
+  }
+}
