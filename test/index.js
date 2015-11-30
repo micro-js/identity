@@ -3,14 +3,17 @@
  */
 
 var identity = require('..')
-var assert = require('assert')
+var test = require('tape')
 
 /**
- * Tests (lol)
+ * Tests
  */
 
-describe('identity', function() {
-  it('should work', function () {
-    assert.equal(identity(1), 1)
-  })
+test('should return arg', function (t) {
+  var obj = {}
+  var arr = []
+  t.equal(identity(1), 1)
+  t.equal(identity(obj), obj)
+  t.equal(identity(arr), arr)
+  t.end()
 })

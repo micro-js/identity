@@ -1,12 +1,16 @@
 {
-  "name": "identity",
-  "description": "Identity function",
+  "name": "@micro-js/identity",
+  "description": "The identity function.",
   "repository": "git://github.com/micro-js/identity.git",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
   "dependencies": {},
   "devDependencies": {
-    "mocha": "2.x"
+    "tape": "^4.2.2",
+    "standard": "^5.4.1"
   }
 }
