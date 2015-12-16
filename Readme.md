@@ -10,12 +10,12 @@ The identity function.
 
 ## Installation
 
-    $ npm install @micro-js/identity
+    $ npm install @f/identity
 
 ## Usage
 
 ```js
-var identity = require('@micro-js/identity')
+var identity = require('@f/identity')
 
 identity(1) // => 1
 identity({}) // => {}
@@ -39,5 +39,5 @@ MIT
 [git-url]: https://github.com/micro-js/identity
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [standard-url]: https://github.com/feross/standard
-[npm-image]: https://img.shields.io/npm/v/@micro-js/identity.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@micro-js/identity
+[npm-image]: https://img.shields.io/npm/v/@f/identity.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@f/identity

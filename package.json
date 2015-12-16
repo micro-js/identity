@@ -1,5 +1,5 @@
 {
-  "name": "@micro-js/identity",
+  "name": "@f/identity",
   "description": "The identity function.",
   "repository": "git://github.com/micro-js/identity.git",
   "version": "1.0.0",
